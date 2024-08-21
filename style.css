@@ -1,0 +1,98 @@
+/* CSS General */
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0e0e0e;
+  color: #dac5a7;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 12px 12px 12px 24px;
+  gap: 32px;
+  align-items: center;
+  border: 1px solid rgba(218, 197, 167, 0.15);
+  background-color: rgba(218, 197, 167, 0.05);
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 41px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.link-style-none {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  width: 111px;
+  height: 41px;
+  background-color: #dac5a7;
+  border: 1px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  color: #222222;
+  font-size: 16px;
+}
+
+/* MAIN */
+
+/* SECTION HERO */
+
+.section-hero {
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-lighten {
+  display: flex;
+  align-items: center;
+  margin: 500px 0 0 0;
+  mix-blend-mode: lighten;
+  position: absolute;
+  z-index: 10;
+}
